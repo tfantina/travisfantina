@@ -4,11 +4,12 @@ import Header from '../components/header'
 import Paper from '../components/paper'
 import Photo from '../components/photo'
 import Edit from '../components/edit'
+import { projectBlock } from '../components/project.js'
 
 import tinaFormOptions from '../components/tina_form_options'
 import { getGithubPreviewProps, parseJson } from 'next-tinacms-github'
 import { GetStaticProps } from 'next'
-import { InlineForm } from 'react-tinacms-inline'
+import { InlineForm, InlineBlocks } from 'react-tinacms-inline'
 import { usePreviewSrc, usePlugin, useCMS, useForm } from 'tinacms'
 import data from '../content/home.json'
 
@@ -41,11 +42,16 @@ export default function Home() {
             <Photo />
           </div>
         </div>
+        <div className='row'>
+          <InlineBlocks name='blocks' blocks={PROJECT_BLOCKS} />
+        </div>
         <Edit />
       </div>
     </InlineForm>
   )
 }
+
+const PROJECT_BLOCKS = { project: projectBlock }
 
 export const getStaticProps = async function ({ preview, previewData }) {
   if (preview) {

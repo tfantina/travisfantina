@@ -2,7 +2,10 @@ import { InlineTextarea } from 'react-tinacms-inline'
 export default function Paper() {
   return (
     <div className='paper'>
-      <InlineTextarea name='body' />
+      <h2>
+        <InlineTextarea name='aboutTitle' />
+      </h2>
+      <InlineTextarea name='aboutBody' />
     </div>
   )
 }

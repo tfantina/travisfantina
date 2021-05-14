@@ -2,12 +2,7 @@
   "header": {
     "title": "Travis Fantina"
   },
-  "body": "OK WELLUP",
-  "about": {
-    "title": "About",
-    "body": "yadda yadda yadda"
-  },
-  "photo": {
-    "title": "Travis Fantina circa 2016"
-  }
+  "aboutTitle": "About me?",
+  "aboutBody": "OK WELLUP",
+  "photoTitle": "Travis Fantina circa 2016"
 }
