@@ -1,0 +1,55 @@
+.pad {
+  @include pad;
+}
+
+.pad-l {
+  @include pad-l;
+}
+
+.pad-r {
+  @include pad-r;
+}
+
+.pad-t {
+  @include pad-t;
+}
+
+.pad-b {
+  @include pad-b;
+}
+
+.pad-x {
+  @include pad-x;
+}
+
+.pad-y {
+  @include pad-y;
+}
+
+.margin {
+  @include margin;
+}
+
+.margin-l {
+  @include margin-l;
+}
+
+.margin-r {
+  @include margin-r;
+}
+
+.margin-t {
+  @include margin-t;
+}
+
+.margin-b {
+  @include margin-b;
+}
+
+.margin-x {
+  @include margin-x;
+}
+
+.margin-y {
+  @include margin-y;
+}

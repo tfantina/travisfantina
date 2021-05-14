@@ -1,0 +1,18 @@
+.photo {
+  background-color: $white;
+  @include height(300px);
+  @include width(280px);
+  @include pad(1rem);
+  @include margin-t(2rem);
+  transform: rotate(5deg);
+  transition: 3s all;
+  box-shadow: 4px 4px 10px $shadow;
+}
+
+.photo:hover {
+  transform: rotate(2deg);
+  box-shadow: 2px 2px 4px $shadow;
+}
+
+.photo__image {
+}

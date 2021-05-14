@@ -1,0 +1,14 @@
+.paper {
+  background-color: $paper;
+  @include height(70vh);
+  @include width(100%);
+  @include pad(1rem);
+  transform: rotate(-2deg);
+  transition: 3s all;
+  box-shadow: 4px 4px 10px $shadow;
+}
+
+.paper:hover {
+  transform: rotate(0deg);
+  box-shadow: 2px 2px 4px $shadow;
+}
