@@ -2,7 +2,14 @@
   "header": {
     "title": "Travis Fantina"
   },
-  "aboutTitle": "About me?",
+  "aboutTitle": "Abut me?",
   "aboutBody": "OK WELLUP",
-  "photoTitle": "Travis Fantina circa 2016"
+  "photoTitle": "Travis Fantina circa 2016",
+  "blocks": [
+    {
+      "_template": "project",
+      "headline": "Projct 1",
+      "subtext": "Something ok"
+    }
+  ]
 }
