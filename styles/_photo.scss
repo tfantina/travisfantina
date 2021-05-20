@@ -15,4 +15,22 @@
 }
 
 .photo__image {
+  @include width(100%);
+  @include margin(0px);
+  img {
+    @include width(100%);
+    @include height(255px);
+    object-fit: cover;
+  }
+}
+
+.photo__caption {
+  @include width(100%);
+  @include height(3rem);
+  @include margin-l(-4px);
+
+  display: flex;
+  align-items: center;
+  font-family: $nanum;
+  font-size: 1.6rem;
 }

@@ -21,34 +21,6 @@ export default function tinaFormOptions() {
           { label: 'Title', name: 'title', component: 'text' },
           { label: 'Subtitle', name: 'subtitle', component: 'text' }
         ]
-      },
-
-      { label: 'Content', name: 'content', component: 'markdown' },
-      {
-        label: 'Timeline',
-        name: 'rawJson.timeline',
-        component: 'group-list',
-        description: 'Timeline',
-        itemProps: (item) => ({
-          key: item.id,
-          label: item.name
-        }),
-        defaultItem: () => ({
-          name: 'New Event',
-          id: Math.random().toString(36).substr(2, 9)
-        }),
-        fields: [
-          {
-            label: 'Date',
-            name: 'name',
-            component: 'text'
-          },
-          {
-            label: 'Event',
-            name: 'event',
-            component: 'text'
-          }
-        ]
       }
     ]
   }

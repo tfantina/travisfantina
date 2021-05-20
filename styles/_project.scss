@@ -1,0 +1,17 @@
+.project.paper:nth-of-type(odd) {
+  transform: rotate(1deg);
+}
+.intro {
+  height: 100vh;
+}
+
+// div.legend {
+//   height: 200px;
+//   width: 400px;
+//   position: fixed;
+//   top: calc(100vh - 200px);
+//   z-index: 100;
+//   display: flex;
+//
+//   background-color: $primary-transparent;
+// }

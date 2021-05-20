@@ -4,7 +4,7 @@ import { InlineTextarea, BlocksControls } from 'react-tinacms-inline'
 
 export function Project() {
   return (
-    <div className='paper'>
+    <div className='project paper'>
       <h2>
         <InlineTextarea name='headline' />
       </h2>
