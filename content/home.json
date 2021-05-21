@@ -44,8 +44,9 @@
     {
       "_template": "photo",
       "src": "/photo2.jpg",
+      "alt": "the author circa 2016\n",
       "photo_Image": "0.jpeg",
-      "alt": "the author circa 2016\n"
+      "image": "0.jpeg"
     }
   ]
 }
