@@ -15,13 +15,13 @@
           "_template": "photo",
           "src": "/photo2.jpg",
           "alt": "yeah hear we go!",
-          "photo_Image": "public/pic5.jpeg"
+          "photo_Image": "pic5.jpeg"
         },
         {
           "_template": "photo",
           "src": "/photo2.jpg",
           "alt": "Wow hahah yeah!",
-          "photo_Image": "public/pic10.jpeg"
+          "photo_Image": "pic10.jpeg"
         }
       ]
     },

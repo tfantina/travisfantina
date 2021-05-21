@@ -1,6 +1,15 @@
 .project.paper:nth-of-type(odd) {
   transform: rotate(1deg);
+  z-index: 50;
+  position: relative;
 }
+
+.project.paper:nth-of-type(even) {
+  margin-top: 1.3rem;
+  z-index: 0;
+  position: relative;
+}
+
 .intro {
   height: 100vh;
 }

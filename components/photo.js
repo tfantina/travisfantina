@@ -14,7 +14,7 @@ export function Photo({ data }) {
             <InlineImage
               name='photo_Image'
               parse={(media) => media.id}
-              uploadDir={() => '/public/'}
+              uploadDir={() => '/'}
               alt='alt'
             />
           </div>

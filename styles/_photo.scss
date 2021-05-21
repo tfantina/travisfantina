@@ -1,12 +1,17 @@
 .photo {
   background-color: $white;
-  @include height(300px);
-  @include width(280px);
+  @include height(350px);
+  @include width(330px);
   @include pad(1rem);
   @include margin-t(2rem);
   transform: rotate(5deg);
   transition: 3s all;
   box-shadow: 4px 4px 10px $shadow;
+}
+
+.photo:nth-of-type(even) {
+  @include margin-t(0);
+  transform: rotate(-3deg);
 }
 
 .photo:hover {
@@ -19,7 +24,7 @@
   @include margin(0px);
   img {
     @include width(100%);
-    @include height(255px);
+    @include height(310px);
     object-fit: cover;
   }
 }

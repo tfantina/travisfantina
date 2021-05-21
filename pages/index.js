@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Header from '../components/header'
 import Legend from '../components/legend'
 import Paper from '../components/paper'
-//import Photo from '../components/photo'
+import { photoBlock } from '../components/photo'
 import Edit from '../components/edit'
 import Footer from '../components/footer'
 import { projectBlock } from '../components/project.js'
@@ -37,10 +37,11 @@ export default function Home({ file }) {
       <div className='container'>
         <div className='intro'>
           <div className='row'>
-            <div className='col-12 col-md-7'>
+            <div className='col-12 col-md-8'>
               <Paper data={pageData} />
             </div>
-            <div className='col-12 col-md-5'>
+            <div className='col-12 col-md-4'>
+              <InlineBlocks name='photos' blocks={PHOTO_BLOCKS} />
               <Legend />
             </div>
           </div>
@@ -57,6 +58,7 @@ export default function Home({ file }) {
 }
 
 const PROJECT_BLOCKS = { project: projectBlock }
+const PHOTO_BLOCKS = { photo: photoBlock }
 
 export const getStaticProps = async function ({ preview, previewData }) {
   if (preview) {
