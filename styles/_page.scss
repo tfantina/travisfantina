@@ -9,13 +9,14 @@ body {
 h1 {
   font-family: $dm_serif;
   font-size: 2.1rem;
-  line-height: 4.5rem;
+  line-height: 2.1rem;
   font-kerning: none;
   margin: 0px;
   padding: 0px;
 
   @include media-md {
     font-size: 4.5rem;
+    line-height: 4.5rem;
   }
 }
 
@@ -35,11 +36,13 @@ h2 {
 h3 {
   font-family: $dm_serif;
   font-size: 1.8rem;
+  line-height: 1.8rem;
   margin: 0px;
   padding: 0px;
 
   @include media-md {
     font-size: 2.5rem;
+    line-height: 2.5rem;
   }
 }
 

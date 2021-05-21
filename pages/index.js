@@ -38,7 +38,7 @@ export default function Home({ file }) {
         <div className='intro'>
           <div className='row'>
             <div className='col-12 col-md-8'>
-              <Paper data={pageData} />
+              <Paper data={pageData} edit={<Edit />} />
             </div>
             <div className='col-12 col-md-4'>
               <InlineBlocks name='photos' blocks={PHOTO_BLOCKS} />
@@ -49,7 +49,6 @@ export default function Home({ file }) {
         <div className='projects'>
           <InlineBlocks name='blocks' blocks={PROJECT_BLOCKS} />
         </div>
-        <Edit />
       </div>
 
       <Footer />

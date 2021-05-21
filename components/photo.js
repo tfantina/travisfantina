@@ -5,16 +5,15 @@ import {
 } from 'react-tinacms-inline'
 
 export function Photo({ data }) {
-  console.log('Here?')
   return (
     <BlocksControls index={data}>
       <div className='photo'>
         <div className='row'>
           <div className='photo__image'>
             <InlineImage
-              name='photo_Image'
+              name='imageName'
               parse={(media) => media.id}
-              uploadDir={() => '/'}
+              uploadDir={() => '/public/'}
               alt='alt'
             />
           </div>
@@ -31,7 +30,7 @@ export function Photo({ data }) {
 
 export const photoBlock = {
   Component: Photo,
-  template: {
+  tempalte: {
     label: 'Photo',
     defaultItem: {
       src: '/photo2.jpg',

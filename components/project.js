@@ -7,8 +7,6 @@ import {
 } from 'react-tinacms-inline'
 
 export function Project({ index }) {
-  console.log(index)
-  console.log('we get here?')
   return (
     <BlocksControls index={index} focusRing={{ offset: 0 }} insetControls>
       <div className='project paper'>
