@@ -28,8 +28,24 @@
     {
       "_template": "project",
       "headline": "Project 2",
-      "subtext": "Something ok"
+      "subtext": "Twee cupidatat hell of, 90's palo santo hella kitsch aesthetic health goth lorem blue bottle poutine leggings pitchfork pabst.  Nisi culpa synth biodiesel.  Vexillologist normcore lumbersexual scenester literally stumptown affogato banjo iceland lorem aliquip.  Cornhole gentrify id, paleo literally yr blue bottle snackwave consequat laborum freegan asymmetrical schlitz live-edge quinoa.\",\"Hot chicken quinoa ut, readymade deep v post-ironic letterpress irony sint vape mixtape.  Laborum et hell of, stumptown bespoke organic cupidatat butcher yr bitters helvetica street art exercitation.  Coloring book veniam 90's sunt pop-up culpa venmo art party seitan vinyl church-key wolf.  Fixie forage hoodie, retro proident small batch prism succulents jean shorts seitan.  Occaecat franzen sint hexagon, church-key four loko mustache.",
+      "photos": [
+        {
+          "_template": "photo",
+          "src": "/photo2.jpg",
+          "alt": "alttext",
+          "photo_Image": "pic2.jpeg"
+        }
+      ]
     }
   ],
-  "aboutBody": "##### Who dis?\n\nMy name is Travis Fantina, I'm a fullstack developer from Earth. Currently living in\nOntario. I'm under contact full-time with an agency called Objective in Salt Lake City,\nwhere I do client work big and small. Everything from single page marketing sites\nmade with NextJS to massive B2B ecommerce platforms built with Elixir.\n\nI am not accepting new client work but you should shoot me an email anyway, I'm always interested in evening projects, side hustles and in general biting off more than I can chew.\n\n##### Stuff I do:\n\n* Ruby & Rails\n* Elixir & Phoenix\n* NextJS\n* CraftCMS\n* Not Wordpress please\n\n##### About this page\n\n\nThis website was made with NextJS and is managed with the TINA CMS an innovative content management system (?) which lets you edit and commit"
+  "aboutBody": "##### Who dis?\n\nMy name is Travis Fantina, I'm a fullstack developer from Earth. Currently living in\nOntario. I'm under contact full-time with an agency called Objective in Salt Lake City,\nwhere I do client work big and small. Everything from single page marketing sites\nmade with NextJS to massive B2B ecommerce platforms built with Elixir.\n\nI am not accepting new client work but you should shoot me an email anyway, I'm always interested in evening projects, side hustles and in general biting off more than I can chew.\n\n##### Stuff I do:\n\n* Ruby & Rails\n* Elixir & Phoenix\n* NextJS\n* CraftCMS\n* Not Wordpress please\n\n  ##### About this page\n\n  This website was made with NextJS and is managed with the TINA CMS an innovative content management system (?) which lets you edit and commit ",
+  "photos": [
+    {
+      "_template": "photo",
+      "src": "/photo2.jpg",
+      "photo_Image": "0.jpeg",
+      "alt": "the author circa 2016\n"
+    }
+  ]
 }
