@@ -1,6 +1,7 @@
 import { InlineTextarea } from 'react-tinacms-inline'
 
 export default function Photo({ data }) {
+  console.log(data);
   return (
     <div className='photo'>
       <div className='row'>

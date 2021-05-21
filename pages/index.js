@@ -35,10 +35,10 @@ export default function Home({ file }) {
       <Header />
 
       <div className='container'>
-        <div class='intro'>
+        <div className='intro'>
           <div className='row'>
             <div className='col-12 col-md-7'>
-              <Paper {...pageData} />
+              <Paper data={pageData} />
             </div>
             <div className='col-12 col-md-5'>
               <Photo data={data} />
@@ -46,7 +46,7 @@ export default function Home({ file }) {
             </div>
           </div>
         </div>
-        <div class='projects'>
+        <div className='projects'>
           <InlineBlocks name='blocks' blocks={PROJECT_BLOCKS} />
         </div>
         <Edit />

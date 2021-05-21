@@ -8,7 +8,25 @@
   box-shadow: 4px 4px 10px $shadow;
 }
 
+.paper::before {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  content: '';
+  position: absolute;
+  background-image: url('/textures/paper.jpeg');
+  object-fit: cover;
+  opacity: 0.4;
+}
+
 .paper:hover {
   transform: rotate(0deg);
   box-shadow: 2px 2px 4px $shadow;
+}
+
+.paper__overlay {
+  position: absolute;
+  @include pad(1rem);
+
 }
