@@ -12,13 +12,13 @@
       "photos": [
         {
           "_template": "photo",
-          "src": "/photo2.jpg",
+          "src": "public/pic10.jpeg",
           "alt": "yeah hear we go!",
           "photo_Image": "public/pic5.jpeg"
         },
         {
           "_template": "photo",
-          "src": "/photo2.jpg",
+          "src": "public/pic5.jpeg",
           "alt": "Wow hahah yeah!",
           "photo_Image": "public/pic10.jpeg"
         }
@@ -31,7 +31,7 @@
       "photos": [
         {
           "_template": "photo",
-          "src": "/photo2.jpg",
+          "src": "public/pic2.jpeg",
           "alt": "alttext",
           "photo_Image": "pic2.jpeg"
         }
@@ -42,7 +42,7 @@
   "photos": [
     {
       "_template": "photo",
-      "src": "/photo2.jpg",
+      "src": "public/0.jpeg",
       "alt": "the author circa 2016\n",
       "photo_Image": "0.jpeg",
       "image": "public/tf.png"
