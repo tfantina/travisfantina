@@ -9,7 +9,21 @@
     {
       "_template": "project",
       "headline": "Projct 1 ok ",
-      "subtext": "Something ok"
+      "subtext": "This is my project let me explain a few precious things about it!",
+      "photos": [
+        {
+          "_template": "photo",
+          "src": "/photo2.jpg",
+          "alt": "yeah hear we go!",
+          "photo_Image": "public/pic5.jpeg"
+        },
+        {
+          "_template": "photo",
+          "src": "/photo2.jpg",
+          "alt": "Wow hahah yeah!",
+          "photo_Image": "public/pic10.jpeg"
+        }
+      ]
     },
     {
       "_template": "project",
