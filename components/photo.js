@@ -30,7 +30,7 @@ export function Photo({ data }) {
 
 export const photoBlock = {
   Component: Photo,
-  tempalte: {
+  template: {
     label: 'Photo',
     defaultItem: {
       src: '/photo2.jpg',

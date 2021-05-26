@@ -1,11 +1,11 @@
 .paper {
   background-color: $paper;
-  @include height(70vh);
   @include width(100%);
   @include pad(1rem);
   transform: rotate(-2deg);
   transition: 3s all;
   box-shadow: 4px 4px 10px $shadow;
+  position: relative;
 }
 
 .paper::before {
@@ -26,6 +26,7 @@
 }
 
 .paper__overlay {
-  position: absolute;
+  position: relative;
+  opacity: 1;
   @include pad(1rem);
 }

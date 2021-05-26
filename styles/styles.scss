@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nanum+Pen+Script&family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+@import 'normalize.css';
 @import 'globals';
 @import '_fw_mixins.scss';
 @import '_fw_variables';
@@ -7,6 +8,8 @@
 @import '_fw_positioning';
 @import '_fw_padding';
 @import 'page';
+@import 'background';
+@import 'layout';
 @import 'header';
 @import 'paper';
 @import 'photo';

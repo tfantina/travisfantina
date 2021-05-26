@@ -35,19 +35,22 @@ export default function Home({ file }) {
       <Header />
 
       <div className='container'>
-        <div className='intro'>
-          <div className='row'>
-            <div className='col-12 col-md-8'>
-              <Paper data={pageData} edit={<Edit />} />
-            </div>
-            <div className='col-12 col-md-4'>
-              <InlineBlocks name='photos' blocks={PHOTO_BLOCKS} />
-              <Legend />
-            </div>
+        <div className='row'>
+          <div className='order-2 order-md-1 col-12 col-md-8'>
+            <Paper data={pageData} edit={<Edit />} />
+          </div>
+          <div className='order-1 order-md-2 col-12 col-md-4'>
+            <InlineBlocks name='photos' blocks={PHOTO_BLOCKS} />
+            <Legend />
           </div>
         </div>
-        <div className='projects'>
-          <InlineBlocks name='blocks' blocks={PROJECT_BLOCKS} />
+        <div className='row projects__row'>
+          <h2> Projects </h2>
+        </div>
+        <div className='row'>
+          <div className='projects'>
+            <InlineBlocks name='blocks' blocks={PROJECT_BLOCKS} />
+          </div>
         </div>
       </div>
 
