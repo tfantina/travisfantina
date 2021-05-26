@@ -9,7 +9,7 @@
     {
       "_template": "project",
       "headline": "Ciao ",
-      "subtext": "Ciao is a social network I built by funnelling all my gripes with traditional social media into a new experiment to make the internet, and social networking a little better. It's still under active development and will be launching in formal beta mode this summer!\n\nI wanted to create something that everything I saw lacking in traditional social media and hopefully recapture some of the promise that I felt when I started using FaceBook and Twitter back in the mid 2000s.\n\n##### Ciao is:\n\n* Ad free\n* Privacy focused\n* Segmented by audiences: you get to share what you want with who you want\n* For families and friends \n\n##### Built with:\n\n* Ruby on Rails \n* PostgreSQL \n* Bootstrap \n* HOT Wire",
+      "subtext": "Ciao is a social network I built by funnelling all my gripes with traditional social media into a new experiment to make the internet, and social networking a little better. It's still under active development and will be launching in formal beta mode this summer!\n\nI wanted to create something that everything I saw lacking in traditional social media and hopefully recapture some of the promise that I felt when I started using FaceBook and Twitter back in the mid 2000s.\n\n##### Ciao is:\n\n* Ad free\n* Privacy focused\n* Segmented by audiences: you get to share what you want with who you want\n* For families and friends\n\n##### Built with:\n\n* Ruby on Rails\n* PostgreSQL\n* Bootstrap\n* HOT Wire\n\n##### Timeline:\n\n* Oct 2020 - Present",
       "photos": [
         {
           "_template": "photo",
@@ -27,14 +27,48 @@
     },
     {
       "_template": "project",
-      "headline": "Project 2",
-      "subtext": "Twee cupidatat hell of, 90's palo santo hella kitsch aesthetic health goth lorem blue bottle poutine leggings pitchfork pabst.  Nisi culpa synth biodiesel.  Vexillologist normcore lumbersexual scenester literally stumptown affogato banjo iceland lorem aliquip.  Cornhole gentrify id, paleo literally yr blue bottle snackwave consequat laborum freegan asymmetrical schlitz live-edge quinoa.\",\"Hot chicken quinoa ut, readymade deep v post-ironic letterpress irony sint vape mixtape.  Laborum et hell of, stumptown bespoke organic cupidatat butcher yr bitters helvetica street art exercitation.  Coloring book veniam 90's sunt pop-up culpa venmo art party seitan vinyl church-key wolf.  Fixie forage hoodie, retro proident small batch prism succulents jean shorts seitan.  Occaecat franzen sint hexagon, church-key four loko mustache.",
+      "headline": "OptConnect",
       "photos": [
         {
           "_template": "photo",
           "src": "public/pic2.jpeg",
           "alt": "alttext",
           "imageName": "pic2.jpeg"
+        }
+      ],
+      "subtext": "**Built under contact at Objective**\n\nOptConnect was looking to switch from their vintage WordPress site to a new CMS that was both simpler and more powerful. Working with another developer I helped OptConnect transition to the CraftCMS. This involved building dozens of templates for their content, migrating almost a hundred posts from a WordPress blog into Craft and working with an in-house designer to bring OptConnect's vision to life.\n\nThe groundwork was laid by another developer, setting up Craft and theming Bootstrap but almost everything else on the site was developed specifically by me.\n\n##### Built with:\n\n* CraftCMS\n* Twig\n* JavaScript\n* Bootstrap\n\n##### Timeline:\n\n* July 2020 - November 2020 - Phase one\n* April 2021 - May 2021 - Phase two (new features and ongoing support)\n* Ongoing - support"
+    },
+    {
+      "_template": "photos",
+      "headline": "Project 1",
+      "subtext": "Something ok",
+      "photos": [
+        {
+          "_template": "photo",
+          "src": "/photo.jpeg",
+          "alt": "A Photo"
+        },
+        {
+          "_template": "photo",
+          "src": "/photo2.jpeg",
+          "alt": "A Nother"
+        }
+      ]
+    },
+    {
+      "_template": "photos",
+      "headline": "Project 1",
+      "subtext": "Something ok",
+      "photos": [
+        {
+          "_template": "photo",
+          "src": "/photo.jpeg",
+          "alt": "A Photo"
+        },
+        {
+          "_template": "photo",
+          "src": "/photo2.jpeg",
+          "alt": "A Nother"
         }
       ]
     }
