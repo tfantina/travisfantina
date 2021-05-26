@@ -8,8 +8,8 @@
   "blocks": [
     {
       "_template": "project",
-      "headline": "Projct 1 ok ",
-      "subtext": "This is my project let me explain a few precious things about it!",
+      "headline": "Ciao ",
+      "subtext": "Ciao is a social network I built by funnelling all my gripes with traditional social media into a new experiment to make the internet, and social networking a little better. It's still under active development and will be launching in formal beta mode this summer!\n\nI wanted to create something that everything I saw lacking in traditional social media and hopefully recapture some of the promise that I felt when I started using FaceBook and Twitter back in the mid 2000s.\n\n##### Ciao is:\n\n* Ad free\n* Privacy focused\n* Segmented by audiences: you get to share what you want with who you want\n* For families and friends \n\n##### Built with:\n\n* Ruby on Rails \n* PostgreSQL \n* Bootstrap \n* HOT Wire",
       "photos": [
         {
           "_template": "photo",
