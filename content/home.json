@@ -26,6 +26,23 @@
       ]
     },
     {
+      "_template": "photos",
+      "headline": "Project 1",
+      "subtext": "Something ok",
+      "photos": [
+        {
+          "_template": "photo",
+          "src": "/photo.jpeg",
+          "alt": "A Photo"
+        },
+        {
+          "_template": "photo",
+          "src": "/photo2.jpeg",
+          "alt": "A Nother"
+        }
+      ]
+    },
+    {
       "_template": "project",
       "headline": "OptConnect",
       "photos": [
@@ -37,6 +54,70 @@
         }
       ],
       "subtext": "**Built under contact at Objective**\n\nOptConnect was looking to switch from their vintage WordPress site to a new CMS that was both simpler and more powerful. Working with another developer I helped OptConnect transition to the CraftCMS. This involved building dozens of templates for their content, migrating almost a hundred posts from a WordPress blog into Craft and working with an in-house designer to bring OptConnect's vision to life.\n\nThe groundwork was laid by another developer, setting up Craft and theming Bootstrap but almost everything else on the site was developed specifically by me.\n\n##### Built with:\n\n* CraftCMS\n* Twig\n* JavaScript\n* Bootstrap\n\n##### Timeline:\n\n* July 2020 - November 2020 - Phase one\n* April 2021 - May 2021 - Phase two (new features and ongoing support)\n* Ongoing - support"
+    },
+    {
+      "_template": "project",
+      "headline": "WildElements",
+      "photos": [
+        {
+          "_template": "photo",
+          "src": "public/pic2.jpeg",
+          "alt": "alttext",
+          "imageName": "pic2.jpeg"
+        }
+      ],
+      "subtext": "**Built under contact at Objective**\n\nWildElements is a new beauty brand that \n\n##### Built with:\n\n* CraftCMS\n* Twig\n* JavaScript\n* Bootstrap\n\n##### Timeline:\n\n* July 2020 - November 2020 - Phase one\n* April 2021 - May 2021 - Phase two (new features and ongoing support)\n* Ongoing - support"
+    },
+    {
+      "_template": "photos",
+      "headline": "Project 1",
+      "subtext": "Something ok",
+      "photos": [
+        {
+          "_template": "photo",
+          "src": "/photo.jpeg",
+          "alt": "A Photo"
+        },
+        {
+          "_template": "photo",
+          "src": "/photo2.jpeg",
+          "alt": "A Nother"
+        }
+      ]
+    },
+    {
+      "_template": "photos",
+      "headline": "Project 1",
+      "subtext": "Something ok",
+      "photos": [
+        {
+          "_template": "photo",
+          "src": "/photo.jpeg",
+          "alt": "A Photo"
+        },
+        {
+          "_template": "photo",
+          "src": "/photo2.jpeg",
+          "alt": "A Nother"
+        }
+      ]
+    },
+    {
+      "_template": "photos",
+      "headline": "Project 1",
+      "subtext": "Something ok",
+      "photos": [
+        {
+          "_template": "photo",
+          "src": "/photo.jpeg",
+          "alt": "A Photo"
+        },
+        {
+          "_template": "photo",
+          "src": "/photo2.jpeg",
+          "alt": "A Nother"
+        }
+      ]
     },
     {
       "_template": "photos",
