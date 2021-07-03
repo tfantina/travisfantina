@@ -1,8 +1,7 @@
 .paper {
   background-color: $paper;
-  @include width(100%);
   @include pad(1rem);
-  transform: rotate(-2deg);
+  //  transform: rotate(-2deg);
   transition: 3s all;
   box-shadow: 4px 4px 10px $shadow;
   position: relative;
@@ -17,11 +16,11 @@
   position: absolute;
   background-image: url('/textures/paper.jpeg');
   object-fit: cover;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 .paper:hover {
-  transform: rotate(0deg);
+  //transform: rotate(0deg);
   box-shadow: 2px 2px 4px $shadow;
 }
 

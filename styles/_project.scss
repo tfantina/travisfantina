@@ -1,20 +1,24 @@
 .project.paper {
+  margin-top: 1rem;
   height: 80%;
 }
 .project.paper:nth-of-type(odd) {
-  transform: rotate(1deg);
+  //  transform: rotate(1deg);
   z-index: 50;
   position: relative;
 }
 
 .project.paper:nth-of-type(even) {
-  margin-top: 1.3rem;
   z-index: 0;
   position: relative;
 }
 
 .intro {
   height: 100vh;
+}
+
+.projects__title {
+  margin: 2rem;
 }
 
 // div.legend {

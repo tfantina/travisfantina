@@ -4,17 +4,15 @@ import { InlineTextarea } from 'react-tinacms-inline'
 export default function Paper({ data, edit }) {
   const editbtn = edit ? edit : ''
   return (
-    <div className='paper'>
-      <div className='paper__overlay'>
-        <h2>
-          <InlineTextarea name='aboutTitle' />
-        </h2>
-        <InlineWysiwyg name='aboutBody' format='markdown'>
-          <ReactMarkdown children={data.aboutBody} />
-        </InlineWysiwyg>
+    <div>
+      <h2>
+        <InlineTextarea name='aboutTitle' />
+      </h2>
+      <InlineWysiwyg name='aboutBody' format='markdown'>
+        <ReactMarkdown children={data.aboutBody} />
+      </InlineWysiwyg>
 
-        {editbtn}
-      </div>
+      {editbtn}
     </div>
   )
 }

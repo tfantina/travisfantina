@@ -1,31 +1,11 @@
 export default function Footer({ data }) {
+  const year = new Date().getFullYear()
+  console.log(year)
   return (
-    <div className='footer'>
+    <footer className='footer'>
       <div className='container'>
-        <div className='row flex-column align-items-center'>
-          <div className='col-8'>
-            <h5 className='text-center'>Credits</h5>
-
-            <div className='row flex-column'>
-              <p>This is a website.</p>
-              <p>It was made with:</p>
-              <ul>
-                <li>TINA CMS</li>
-                <li>JavaScript</li>
-                <li>ReactJS</li>
-                <li>NextJS</li>
-                <li>Sketch</li>
-                <li>Vercel</li>
-              </ul>
-              TINA CMS an innovative WYSIWYG content editor.
-              <br />
-              Try it out by clicking here to edit this site!
-            </div>
-          </div>
-        </div>
-
-        <div className='row footer-end'>
-          <div className='col-4'>
+        <div className='row footer-end justify-content-center'>
+          <div className='col-12 col-md-4 text-center order-1'>
             <h5>Find me elsewhere</h5>
             <ul>
               <li>
@@ -39,12 +19,12 @@ export default function Footer({ data }) {
               </li>
             </ul>
           </div>
-          <div className='col-4'>
+          <div className='col-12 col-md-4 text-center order-2'>
             <h5> Boring</h5>
-            Copyright
+            &copy; Travis Fantina {year}
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
